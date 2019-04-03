@@ -30,12 +30,11 @@ JAVA第一接触
    /*
    使用if语句判断用户输入的年份是平年还是闰年
    */
+   
     if(year%4==0 &&year%100!=0 ||year%400==0) {
 			System.out.print("闰年");
 		}else{
 		System.out.print("平年");
 		}
     
-    
-    
-    
+
