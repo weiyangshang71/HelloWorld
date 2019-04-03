@@ -27,11 +27,9 @@ JAVA第一接触
 		boolean flag=(year%4==0 && year%100!=0)||year%400==0;
 		String str= flag ? year+"是闰年" : year+"是平年";
 		System.out.println(str);
-    
-    /*
-    
-   三使用，如果语句判断用户输入的年份是平年还是闰年
-    
+   /*
+   使用if语句判断用户输入的年份是平年还是闰年
+   */
     if(year%4==0 &&year%100!=0 ||year%400==0) {
 			System.out.print("闰年");
 		}else{
